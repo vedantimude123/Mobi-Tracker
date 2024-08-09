@@ -27,10 +27,17 @@
   }
   
   .box {
-    padding: 20px;
+    padding: 22px;
     background: #ffffff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 37%;
+    /* max-width: 300%; */
+    width: 147%;
+    height: 101%;
+    max-height: 133%;
+    margin-left: 102%;
+
   }
   
   ion-item {

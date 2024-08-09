@@ -35,3 +35,25 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import "@ionic/angular/css/palettes/dark.system.css";
+
+
+.datatable-container ngx-datatable {
+    border: 1px solid #ccc; /* Add a border to the ngx-datatable */
+    border-radius: 5px; /* Optional: Add some border-radius for rounded corners */
+  }
+  
+  .datatable-container ngx-datatable .datatable-header, 
+  .datatable-container ngx-datatable .datatable-body, 
+  .datatable-container ngx-datatable .datatable-footer {
+    border-top: 1px solid #ccc; /* Add a top border to table sections */
+  }
+  
+  .datatable-container ngx-datatable .datatable-row-group {
+    border-top: 1px solid #ccc; /* Add a top border to row groups */
+  }
+  .datatable-container ngx-datatable .datatable-body-cell {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Optional: Align items vertically in the center */
+  }
+  

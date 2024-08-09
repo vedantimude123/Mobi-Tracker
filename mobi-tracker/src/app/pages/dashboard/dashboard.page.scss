@@ -1,0 +1,25 @@
+.datatable-container {
+    padding: 15px;
+  
+    ngx-datatable {
+      .datatable-header {
+        background-color: #f7f7f7;
+      }
+  
+      .datatable-body {
+        .datatable-row {
+          &:nth-child(odd) {
+            background-color: #f2f2f2;
+          }
+          &:nth-child(even) {
+            background-color: #ffffff;
+          }
+        }
+      }
+  
+      .datatable-footer {
+        background-color: #f7f7f7;
+      }
+    }
+  }
+  
